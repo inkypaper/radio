@@ -44,7 +44,7 @@ $('.active-box').hover(function(){
 });
 
 var audioMp3 = new Audio();
-audioMp3.src = 'http://uk7freenew.listen2myradio.com:11027/stream.mp3';
+audioMp3.src = 'https://uk7freenew.listen2myradio.com/live.mp3?typeportmount=s2_11027_stream_20625036';
 
 function playAudio(){
 	audioMp3.play();
