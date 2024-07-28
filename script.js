@@ -44,7 +44,7 @@ $('.active-box').hover(function(){
 });
 
 var audioMp3 = new Audio();
-audioMp3.src = 'https://freeuk18.listen2myradio.com/live.mp3?typeportmount=s2_34981_stream_816395914';
+audioMp3.src = 'http://uk7freenew.listen2myradio.com:11027/;?type=http&nocache=2';
 
 function playAudio(){
 	audioMp3.play();
