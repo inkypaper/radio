@@ -21,7 +21,7 @@ p {
   height: 100%;
 }
 .audio-container{
-  position: relative;
+  position: absolute;
   top: 10%%;
   width: 100%;
   transform: translateY(-50%);
