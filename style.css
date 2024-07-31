@@ -10,6 +10,7 @@ html, body{
 }
 div.absolute {
   position: absolute;
+  text-align: center;
   bottom: 10px;
   width: 50%;
   border: 3px solid #8AC007;
