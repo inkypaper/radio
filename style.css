@@ -22,8 +22,12 @@ p {
   height: 100%;
 }
 
-
-
+.audio-container{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
 .audiosvg-container{
 	position: relative;
 }
