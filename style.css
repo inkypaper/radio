@@ -22,7 +22,7 @@ p {
 }
 .audio-container{
   position: static;
-
+  top: 50%;
   width: 100%;
   transform: translateY(-50%);
 }
