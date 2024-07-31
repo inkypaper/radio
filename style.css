@@ -12,8 +12,8 @@ div.absolute {
   position: absolute;
   text-align: center;
 	
-  margin-left: auto;
-  margin-right: auto;
+ margin: auto;
+padding: 10px;
   bottom: 10px;
   width: 50%;
   border: 3px solid #8AC007;
