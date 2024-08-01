@@ -182,5 +182,30 @@ document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValu
 
 <br>
 	<audio id="audio_1" controls="" preload="none" style="width:16em;padding:0;"><source src="/;?type=http&amp;nocache=1" type="audio/mpeg"></audio>
+<script type="text/javascript">
+var registerOnWindowLoad=function(callback){
+if(window.addEventListener){
+window.addEventListener('load',callback,false);
+}else{
+window.attachEvent('onload',callback);
+}
+};
+registerOnWindowLoad(function(){
+var audio=document.getElementsByTagName("audio");
+if(audio.length){
+var canPlay = !!audio[0].canPlayType && audio[0].canPlayType('audio/mpeg; codecs="mp3"') != "";
+if(!canPlay){
+for(var i=audio.length-1;i>=0;i--){
+var parent = audio[i].parentNode;
+parent.removeChild(audio[i]);
+var parent2 = parent.parentNode;
+parent2.removeChild(parent);
+}
+}
+}
+});
+</script>
+
+
 </body>
 </html>
