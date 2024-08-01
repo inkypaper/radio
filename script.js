@@ -44,7 +44,7 @@ $('.active-box').hover(function(){
 });
 
 var audioMp3 = new Audio();
-audioMp3.src = 'http://uk7freenew.listen2myradio.com:11027/;live.mp3';
+audioMp3.src = 'http://82.145.41.50:11027/;?type=http&nocache=1';
 
 
 
