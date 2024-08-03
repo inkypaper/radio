@@ -44,7 +44,7 @@ $('.active-box').hover(function(){
 });
 
 var audioMp3 = new Audio();
-audioMp3.src = 'http://82.145.41.50:11027/;?type=http&nocache=1';
+audioMp3.src = 'http://82.145.41.50:11027/;?type=http&nocache=1.mp3';
 
 
 
